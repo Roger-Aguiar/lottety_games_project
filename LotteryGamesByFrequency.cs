@@ -19,18 +19,16 @@ class LotteryGamesByFrequency: LotteryGames
         return results;
     }
 
-    public override string [] GetPastResults()
+    public override void GetPastResults()
     {
         string currentLineOfFile;
         string fileWithResults = null;
         System.IO.StreamReader filePath = new System.IO.StreamReader(FileWithResults);
-        for(int line = 0; (currentLineOfFile = filePath.ReadLine()) != null; line++)
-        {
-            fileWithResults += currentLineOfFile;
-        }
-        string [] past_results = fileWithResults.Split(' ', '\n');
         
-        return past_results;   
+        for(int line = 0; (currentLineOfFile = filePath.ReadLine()) != null; line++)        
+            fileWithResults += currentLineOfFile;
+        
+        PastResults = fileWithResults.Split(' ', '\n');                  
     }
 
     public override string GetLayoutGame()

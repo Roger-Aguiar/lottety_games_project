@@ -18,6 +18,6 @@ public abstract class LotteryGames
 
     public abstract string[] GenerateGames();
     public abstract string GetLayoutGame();
-    public abstract string [] GetPastResults();
+    public abstract void GetPastResults();
 
 }
