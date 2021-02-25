@@ -9,23 +9,6 @@ class LotteryGamesByFrequency: LotteryGames
         QuantityOfAvailableNumbers = quantityOfAvailableNumbers;
         QuantiyOfNumbersByGame = quantiyOfNumbersByGame;
     }
-
-    public override void GenerateGames()
-    {
-        GetPastResults();
-        GetAvailableNumbers();
-        GetFrequencyOfNumbers();
-        
-        for(int number = 1; number <= QuantiyOfNumbersByGame; number++)
-        {
-            Game.Add(Available_numbers[Frequency_of_numbers.IndexOf(Frequency_of_numbers.Max())]);
-            Available_numbers.RemoveAt(Frequency_of_numbers.IndexOf(Frequency_of_numbers.Max()));
-            Frequency_of_numbers.RemoveAt(Frequency_of_numbers.IndexOf(Frequency_of_numbers.Max()));  
-        }      
-
-        Game.Sort();                          
-    }
-
     private void GetFrequencyOfNumbers()
     {       
         foreach (var number in Available_numbers)
@@ -41,6 +24,22 @@ class LotteryGamesByFrequency: LotteryGames
         for(int number = 1; number <= QuantityOfAvailableNumbers; number++)
             Available_numbers.Add(String.Format("{0:00}", number));        
     }
+
+    public override void GenerateGames()
+    {
+        GetPastResults();
+        GetAvailableNumbers();
+        GetFrequencyOfNumbers();
+        
+        for(int number = 1; number <= QuantiyOfNumbersByGame; number++)
+        {
+            Game.Add(Available_numbers[Frequency_of_numbers.IndexOf(Frequency_of_numbers.Max())]);
+            Available_numbers.RemoveAt(Frequency_of_numbers.IndexOf(Frequency_of_numbers.Max()));
+            Frequency_of_numbers.RemoveAt(Frequency_of_numbers.IndexOf(Frequency_of_numbers.Max()));  
+        }      
+
+        Game.Sort();                          
+    }    
 
     public override void GetPastResults()
     {
@@ -61,6 +60,5 @@ class LotteryGamesByFrequency: LotteryGames
             layout += number + "   "; 
         
         return layout;
-    }
-    
+    }    
 }
