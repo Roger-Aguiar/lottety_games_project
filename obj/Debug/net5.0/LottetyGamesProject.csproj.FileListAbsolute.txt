@@ -1,0 +1,16 @@
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\bin\Debug\net5.0\LottetyGamesProject.exe
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\bin\Debug\net5.0\LottetyGamesProject.deps.json
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\bin\Debug\net5.0\LottetyGamesProject.runtimeconfig.json
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\bin\Debug\net5.0\LottetyGamesProject.runtimeconfig.dev.json
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\bin\Debug\net5.0\LottetyGamesProject.dll
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\bin\Debug\net5.0\ref\LottetyGamesProject.dll
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\bin\Debug\net5.0\LottetyGamesProject.pdb
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\obj\Debug\net5.0\LottetyGamesProject.csprojAssemblyReference.cache
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\obj\Debug\net5.0\LottetyGamesProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\obj\Debug\net5.0\LottetyGamesProject.AssemblyInfoInputs.cache
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\obj\Debug\net5.0\LottetyGamesProject.AssemblyInfo.cs
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\obj\Debug\net5.0\LottetyGamesProject.csproj.CoreCompileInputs.cache
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\obj\Debug\net5.0\LottetyGamesProject.dll
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\obj\Debug\net5.0\ref\LottetyGamesProject.dll
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\obj\Debug\net5.0\LottetyGamesProject.pdb
+C:\Users\Roger\Desktop\Files\Studies\MyProjects\LottetyGamesProject\obj\Debug\net5.0\LottetyGamesProject.genruntimeconfig.cache
