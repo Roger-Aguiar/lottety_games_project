@@ -1,6 +1,3 @@
-//Name:         Roger Silva Santos Aguiar
-//Initial date: February 24, 2021
-
 using System.Collections.Generic;
 public abstract class LotteryGames
 {
@@ -10,7 +7,7 @@ public abstract class LotteryGames
     private List<string> available_numbers = new List<string>();
     private List<string> game = new List<string>();
     private List<string> pastResults = new List<string>();
-    List<int> frequency_of_numbers = new List<int>();
+    private List<int> frequency_of_numbers = new List<int>();
 
     public int QuantityOfAvailableNumbers { get => quantityOfAvailableNumbers; set => quantityOfAvailableNumbers = value; }
     public int QuantiyOfNumbersByGame { get => quantiyOfNumbersByGame; set => quantiyOfNumbersByGame = value; }
